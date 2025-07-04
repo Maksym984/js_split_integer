@@ -4,9 +4,9 @@ const splitInteger = require('./splitInteger');
 
 test(`should split a number into equal parts
   if a value is divisible by a numberOfParts`, () => {
-    
+
 const result = splitInteger(30, 3);
-expect(result).toEqual([10, 10 ,10]);
+expect(result).toEqual([10, 10, 10]);
     
 });
 
@@ -17,7 +17,7 @@ expect(result).toEqual([30])
 });
 
 test('should sort parts ascending if they are not equal', () => {
-  const result = splitInteger(42, 4)
+  const result = splitInteger(42, 4); //мне jcbdhbnd
   expect(result).toEqual([10, 10, 11, 11]);
 
 });
