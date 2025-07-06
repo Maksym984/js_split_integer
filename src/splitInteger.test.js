@@ -17,13 +17,13 @@ expect(result).toEqual([30])
 });
 
 test('should sort parts ascending if they are not equal', () => {
-  const result = splitInteger(42, 4); //мне jcbdhbnd
+  const result = splitInteger(42, 4); 
   expect(result).toEqual([10, 10, 11, 11]);
 
 });
 
 test('should add zeros if value < numberOfParts', () => {
 const result = splitInteger(2, 4);
-expect(result).toEqual([0, 0, 1, 1]); 
+expect(result).toEqual([0, 0, 1, 1]); //hi 
 
 });
